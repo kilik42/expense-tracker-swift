@@ -13,7 +13,11 @@ struct ContentView: View {
             ScrollView{
                 VStack(alignment: .leading, spacing: 24) {
                     Text("Overview")
+                        .font(.title)
+                        .bold()
+                        
                 }.padding()
+                    .frame(maxWidth: .infinity)
             }
             .background(Color.background)
             .navigationBarTitleDisplayMode(.inline)
