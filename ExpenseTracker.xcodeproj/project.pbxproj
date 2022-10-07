@@ -11,6 +11,7 @@
 		10CE757528F0938F00609BEC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CE757428F0938F00609BEC /* ContentView.swift */; };
 		10CE757728F0938F00609BEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10CE757628F0938F00609BEC /* Assets.xcassets */; };
 		10CE757A28F0938F00609BEC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10CE757928F0938F00609BEC /* Preview Assets.xcassets */; };
+		10CE758128F097D600609BEC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CE758028F097D600609BEC /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		10CE757428F0938F00609BEC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		10CE757628F0938F00609BEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10CE757928F0938F00609BEC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		10CE758028F097D600609BEC /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		10CE757128F0938F00609BEC /* ExpenseTracker */ = {
 			isa = PBXGroup;
 			children = (
+				10CE758028F097D600609BEC /* Extensions.swift */,
 				10CE757228F0938F00609BEC /* ExpenseTrackerApp.swift */,
 				10CE757428F0938F00609BEC /* ContentView.swift */,
 				10CE757628F0938F00609BEC /* Assets.xcassets */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				10CE757528F0938F00609BEC /* ContentView.swift in Sources */,
+				10CE758128F097D600609BEC /* Extensions.swift in Sources */,
 				10CE757328F0938F00609BEC /* ExpenseTrackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +286,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.marvinevins.ExpenseTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -311,6 +318,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.marvinevins.ExpenseTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
