@@ -11,6 +11,11 @@ struct TransactionRow: View {
     var transaction: Transaction
     var body: some View {
         HStack(spacing: 20){
+            VStack(alignment: .leading, spacing:6) {
+                Text(transaction.merchant)
+                    .font(.subheadline)
+                    .bold()
+            }
             
         }
         .padding([.top, .bottom], 8)
