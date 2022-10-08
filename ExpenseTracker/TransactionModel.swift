@@ -22,3 +22,10 @@ struct Transaction: Identifiable{
     var isExpense: Bool
     var isEdited: Bool
 }
+
+
+enum TransactionType: String{
+    case debit = "debit"
+    case credit = "credit"
+     
+}
